@@ -37,7 +37,7 @@ ranging from 25 to 56?
 In our experiment we used Cars and Movies datasets. Both datasets include data attributes of Nominal, Ordinal, and Numerical types. The Cars dataset provides details for 407 new cars and trucks for the year 2004. This dataset contains 18 data attributes describing each car. The Movies dataset provides details for 335 movies released from 2007 to 2012, and contains 13 data attributes.
 
 ## Summary of Results 
-Conversely, Line Chart has the lowest aggregate accuracy and speed. However, Line Chart is significantly more accurate
+Bar Chart is the fastest and the most accurate visualization type. This result is inline with prior work on graphical perception showing that people can decode values encoded with length faster than other encodings such as angle or volume. Conversely, Line Chart has the lowest aggregate accuracy and speed. However, Line Chart is significantly more accurate
 than other charts for Correlation and Distribution tasks. This finding concurs with with earlier research reporting the effectiveness of line charts for trend finding tasks. Nonetheless, the overall low performance of Line Chart is surprising and, for some tasks, can be attributed to the fact that the axes values ("ticks") were drawn at intervals. This
 makes it difficult to precisely identify the value for a specific data point.
 
@@ -50,9 +50,6 @@ showing the data values. Overall, Scatterplot performs reasonably well in terms 
 Table, Bar Chart, and Pie Chart are the fastest and the most accurate visualizations for performing Retrieve tasks. Successful performance of Retrieve tasks highly depends on readers ability to accurately identify the value for a certain data point. As prior work points out, tables are well-suited for retrieving the numerical value of a data point when a relatively small number of data points are displayed. While performing Retrieve task using Table is fast and accurate, performing Order, Extremum and Distribution tasks are relatively slow. 
 
 ![screenshot 2016-10-03 12 08 00](https://cloud.githubusercontent.com/assets/22280917/19044427/3d152eba-8962-11e6-87e7-7e67886d1be3.png)
-
-The figure above summarizes performance time, accuracy, and user preferences of five charts for different tasks. Results, aggregated over tasks and datasets, show that Bar Chart is the fastest and the most accurate visualization type. This result
-is inline with prior work on graphical perception showing that people can decode values encoded with length faster than other encodings such as angle or volume.
 
 ![screenshot 2016-10-03 12 08 31](https://cloud.githubusercontent.com/assets/22280917/19044424/3a67f9f4-8962-11e6-8d7a-b2bb6bf28677.png)
 The following figure summarizes our results for each visualization type.
