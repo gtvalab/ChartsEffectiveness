@@ -52,7 +52,6 @@ Table, Bar Chart, and Pie Chart are the fastest and the most accurate visualizat
 ![screenshot 2016-10-03 12 08 00](https://cloud.githubusercontent.com/assets/22280917/19044427/3d152eba-8962-11e6-87e7-7e67886d1be3.png)
 
 ![screenshot 2016-10-03 12 08 31](https://cloud.githubusercontent.com/assets/22280917/19044424/3a67f9f4-8962-11e6-8d7a-b2bb6bf28677.png)
-The following figure summarizes our results for each visualization type.
 
 
 Overall, Bar Chart and Table are the two visualization types highly preferred by participants across most of the tasks. Bar Chart is always among two top-performing visualizations for almost all tasks, so this makes sense that people prefer using Bar Chart over other visualizations. Surprisingly, while performing some of the tasks (e.g., Distribution, Anomalies) using Table is relatively slow and less accurate, participants still prefer Table for performing these tasks. Familiarity of people with tables and easiness in understanding tables could have helped people to prefer using tables over other visualizations. To determine whether performance time and accuracy are related to user preferences, we calculated the correlation between performance time, accuracy, and user preference. We found a positive correlation between accuracy and user preference (Pearson’s r(5) = 0.68, p < 0.05), indicating people have a preference for visualizations that allow them to accurately complete a task. We also found a weak negative correlation between performance time and user preferences (Pearson’s r(5) = −0.43, p < 0.05).
