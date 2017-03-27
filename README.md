@@ -1,12 +1,15 @@
-# Task Based Effectiveness of Basic Visualizations
 
-Visualizations of tabular data are widely used; understanding their effectiveness in different task and data contexts is fundamental to scaling their impact. However, little is known about how basic tabular data visualizations perform across varying data analysis tasks. In response, we conducted a crowdsourced study to evaluate the effectiveness of five basic visualization types (Table, Line Chart, Bar Chart, Scatterplot, and Pie Chart) across 10 different visual analysis tasks and two different datasets (Cars and Movies). We have two main reserch questions:
+# Task Based Effectiveness of Basic Visualizations
+This repository contains all the relevant material of a crowdsourced study that aimed to evaluate the effectiveness of five basic visualization types (Table, Line Chart, Bar Chart, Scatterplot, and Pie Chart) across 10 different visual analysis tasks and two different datasets (Cars and Movies). The goal is to help researchers to reproduce and build on our study.
+
+
+## Research Questions
+We conducted this study to answer two main reserch questions:
 
 **Q1** How well are different tasks supported by each visualization? For example, what tasks can be performed well using a scatterplot?
 
 **Q2** Is there a correlation between user preferences and their performance time and accuracy when using different visualizations for each task?
 
-This repository contains all the relevant material to help researchers to reproduce and build on our study.
 
 ## Visualizations Evaluated
 ![screenshot 2016-10-03 11 21 01](https://cloud.githubusercontent.com/assets/22280917/19043418/0e698c86-895e-11e6-8fb9-5628a6ae0e81.png)
