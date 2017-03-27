@@ -41,11 +41,11 @@ To address our research questions, we needed to test how the different visualiza
 
 To analyze the differences among the various visualizations, we first calculated separate mean performance values for all questions. That is, we averaged outcome values of questions for each visualization and task. Before testing, we checked that the collected data met the assumptions of appropriate statistical tests. The assumption of normality was not
 satisfied for performance time. 
-![screenshot 2017-03-27 10 25 41](https://cloud.githubusercontent.com/assets/4343770/24361417/eff0ef70-12d7-11e7-9f31-d21930ce7afb.png)
+![screenshot 2017-03-27 10 25 56](https://cloud.githubusercontent.com/assets/4343770/24361421/f3ef0e0e-12d7-11e7-9214-7391e6efea79.png)
 
 However, the normality was satisfied for log transformed of time values. So, we treated log-transformed
 values as our time measurements. 
-![screenshot 2017-03-27 10 25 56](https://cloud.githubusercontent.com/assets/4343770/24361421/f3ef0e0e-12d7-11e7-9214-7391e6efea79.png)
+![screenshot 2017-03-27 10 25 41](https://cloud.githubusercontent.com/assets/4343770/24361417/eff0ef70-12d7-11e7-9f31-d21930ce7afb.png)
 
 We conducted repeated-measures analysis of variance (ANOVA) for each task independently to test for differences among the various visualizations, datasets, and their interactions with one another. While Visualization had significant effects on both accuracy and time, Dataset had no significant effect on accuracy or time.
 
