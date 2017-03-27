@@ -36,6 +36,19 @@ ranging from 25 to 56?
 ## Datasets Used in Our Experiment 
 In our experiment we used Cars and Movies datasets. Both datasets include data attributes of Nominal, Ordinal, and Numerical types. The Cars dataset provides details for 407 new cars and trucks for the year 2004. This dataset contains 18 data attributes describing each car. The Movies dataset provides details for 335 movies released from 2007 to 2012, and contains 13 data attributes.
 
+## Data Analysis and Preprocessing
+To address our research questions, we needed to test how the different visualization techniques affected the user performance time, accuracy, and preferences for different tasks.
+
+To analyze the differences among the various visualizations, we first calculated separate mean performance values for all questions. That is, we averaged outcome values of questions for each visualization and task. Before testing, we checked that the collected data met the assumptions of appropriate statistical tests. The assumption of normality was not
+satisfied for performance time. 
+![screenshot 2017-03-27 10 25 41](https://cloud.githubusercontent.com/assets/4343770/24361417/eff0ef70-12d7-11e7-9f31-d21930ce7afb.png)
+
+However, the normality was satisfied for log transformed of time values. So, we treated log-transformed
+values as our time measurements. 
+![screenshot 2017-03-27 10 25 56](https://cloud.githubusercontent.com/assets/4343770/24361421/f3ef0e0e-12d7-11e7-9214-7391e6efea79.png)
+
+We conducted repeated-measures analysis of variance (ANOVA) for each task independently to test for differences among the various visualizations, datasets, and their interactions with one another. While Visualization had significant effects on both accuracy and time, Dataset had no significant effect on accuracy or time.
+
 ## Summary of Results 
 Bar Chart is the fastest and the most accurate visualization type. This result is inline with prior work on graphical perception showing that people can decode values encoded with length faster than other encodings such as angle or volume. Conversely, Line Chart has the lowest aggregate accuracy and speed. However, Line Chart is significantly more accurate
 than other charts for Correlation and Distribution tasks. This finding concurs with with earlier research reporting the effectiveness of line charts for trend finding tasks. Nonetheless, the overall low performance of Line Chart is surprising and, for some tasks, can be attributed to the fact that the axes values ("ticks") were drawn at intervals. This
