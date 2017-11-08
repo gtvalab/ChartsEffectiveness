@@ -82,24 +82,11 @@ Overall, Bar Chart and Table are the two visualization types highly preferred by
 <img width="1917" alt="screen shot 2017-03-29 at 7 26 09 pm" src="https://cloud.githubusercontent.com/assets/4343770/24913737/1021acd4-1ea0-11e7-9d60-1b4c45b6616d.png">
 
 
-## How to Use The Data and Source Code in This Repository?
+## How to Use The Data in This Repository?
 
-### Experiment Software
-
-This folder contains all the files for our online experiment. In order to run the code, you need to run a local web server and view the page. 
-
-How to run a local web server?
-
-   Step 1: Install python
-
-   Step 2: Run python -m SimpleHTTPServer 8000
-
-   Step 3: Open http://localhost:8000/index.html using any web browser.
-   
 ### Raw Data
 
 This folder contians data collected from the experiment. All files are in the .xls format. In order to open each of them you need to have microsoft office Excel. If not you can just open them using Google sheet.
-
 
 ### SPSS Analysis
 
