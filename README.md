@@ -86,7 +86,7 @@ Overall, Bar Chart and Table are the two visualization types highly preferred by
 
 ### Raw Data
 
-This folder contians data collected from the experiment. All files are in the .xls format. In order to open each of them you need to have microsoft office Excel. If not you can just open them using Google sheet.
+This folder contians data collected from the experiment. All files are in the .xls format. In order to open each of them you need to have microsoft office Excel. If not, you can just open them using Google sheet.
 
 ### SPSS Analysis
 
@@ -94,6 +94,7 @@ This folder contains all the analysis we ran to make sense of our data. If you h
 
 
 ## What is Our Study Useful For?
+
 We  believe results of our study has at least two important applications. First, our results can be used as series of theoretical guidelines to inform visualization designers and those new to data visualization. Second, as there is an increasing trend in automating the process of visualization design using visualization recommender systems, these 
 results can be applied to advance processes of generating, filtering, and pruning the recommendations. 
 
