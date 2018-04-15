@@ -81,6 +81,10 @@ Overall, Bar Chart and Table are the two visualization types highly preferred by
 ![screenshot 2017-04-11 10 13 39](https://cloud.githubusercontent.com/assets/4343770/24913699/f38419c2-1e9f-11e7-9d2b-6cd13a25a65e.png)
 <img width="1917" alt="screen shot 2017-03-29 at 7 26 09 pm" src="https://cloud.githubusercontent.com/assets/4343770/24913737/1021acd4-1ea0-11e7-9d60-1b4c45b6616d.png">
 
+## Overview of Study Procedure
+![screenshot 2018-04-14 14 53 06](https://user-images.githubusercontent.com/4343770/38781488-04b7781a-40b4-11e8-8a94-21648ff90cb0.png)
+
+
 
 ## How to Use The Data in This Repository?
 
